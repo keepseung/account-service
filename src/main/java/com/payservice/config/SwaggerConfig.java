@@ -24,8 +24,8 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("KakaoPay Work Swagger")
-                .description("Hello. This is KakaoPay Work Rest API")
+                .title("계좌 생성 및 내역 조회 API Swagger")
+                .description("유저 생성 -> 계좌 생성 -> 계좌 내역 생성 순으로 테스트 할 수 있습니다.")
                 .version("1.0")
                 .build();
     }
